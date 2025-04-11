@@ -43,7 +43,6 @@ def obtener_departamentos():
             print(f"Error al obtener datos: {response.status_code}")
             return pd.DataFrame()
     
-
 # traemos datos externos para cotejar la información
 data_url = 'https://people.sc.fsu.edu/~jburkardt/data/csv/hw_200.csv'
 df = pd.read_csv(data_url)
